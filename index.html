@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- displays site properly based on user's device -->
 
     <link
@@ -26,40 +28,42 @@
     </style>
     <link rel="stylesheet" href="public/styles.css" />
   </head>
-  <body class="bg-slate-100 text-[15px] text-gray-600">
-    <div class="px-[30px] justify-center lg:pb-[30px]">
-      <div
-        class="flex justify-center items-center flex-col text-center my-[50px] lg:my-[20px]"
-      >
+  <body class="bg-slate-100 font-body">
+    <div
+      class="text-[15px] text-gray-600 flex flex-col gap-10px justify-center items-center mx-[10px]"
+    >
+      <div class="container text-center mt-[50px]">
         <h1 class="font-light text-[25px]">Reliable, efficient delivery</h1>
         <h2 class="font-bold text-[25px]">Powered by Technology</h2>
-        <div class="w-[19rem] mt-[20px] lg:w-[30rem]">
-          <p>
-            Intelligence powered tools use millions of project data points to
-            ensure that your project is successful
-          </p>
-        </div>
+
+        <p class="md:px-[250px]">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
       </div>
-      <div class="lg:flex lg:gap-[30px]">
+      <div
+        class="container mt-[50px] xl:flex xl:flex-row xl:gap-[20px] xl:justify-center xl:items-center md:flex md:flex-col md:justify-center md:items-center"
+      >
         <div
-          class="bg-white h-[13rem] border-t-4 border-green-400 rounded-lg mt-[15px] relative p-[20px] shadow-xl lg:w-[23rem] lg:ml-[70px] lg:mt-[150px]"
+          class="bg-white h-[13rem] border-t-4 border-green-400 rounded-lg mt-[15px] relative p-[20px] shadow-xl max-w-[350px] xl:mt-[100px]"
         >
           <h3 class="font-bold">Supervisor</h3>
-          Monitors activity to identify project roadblocks
+          <p>Monitors activity to identify project roadblocks</p>
           <img
             class="absolute bottom-4 right-4"
             src="images/icon-supervisor.svg"
             alt="supervisor"
           />
         </div>
-        <div
-          class="lg:flex lg:flex-col lg:gap-[20px] lg:justify-between lg:items-center"
-        >
+        <div class="xl:flex xl:flex-col">
           <div
-            class="bg-white h-[13rem] border-t-4 border-red-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl lg:w-[23rem]"
+            class="bg-white h-[13rem] border-t-4 border-red-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl max-w-[350px]"
           >
             <h3 class="font-bold">Team Builder</h3>
-            Scans our talent network to create the optimal team for your project
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
             <img
               class="absolute bottom-4 right-4"
               src="images/icon-team-builder.svg"
@@ -67,10 +71,10 @@
             />
           </div>
           <div
-            class="bg-white h-[13rem] border-t-4 border-yellow-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl lg:w-[23rem]"
+            class="bg-white h-[13rem] border-t-4 border-yellow-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl max-w-[350px]"
           >
             <h3 class="font-bold">Karma</h3>
-            Regularly evaluates our talent to ensure quality
+            <p>Regularly evaluates our talent to ensure quality</p>
             <img
               class="absolute bottom-4 right-4"
               src="images/icon-karma.svg"
@@ -79,10 +83,12 @@
           </div>
         </div>
         <div
-          class="bg-white h-[13rem] border-t-4 border-blue-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl mb-[50px] lg:w-[23rem] lg:mt-[150px]"
+          class="bg-white h-[13rem] border-t-4 border-blue-400 rounded-lg mt-[15px] p-[20px] relative shadow-xl mb-[50px] max-w-[350px] xl:mt-[100px]"
         >
           <h3 class="font-bold">Calculator</h3>
-          Uses data from past projects to provide better delivery estimates
+          <p>
+            Uses data from past projects to provide better delivery estimates
+          </p>
           <img
             class="absolute bottom-4 right-4"
             src="images/icon-calculator.svg"
